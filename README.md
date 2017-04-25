@@ -2,7 +2,7 @@
 
 #### basic test coverage for  [fancybox (v3.0.0)](https://github.com/olsonpm/fancybox)  [![npm package](https://img.shields.io/npm/v/npmtest-fancybox.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-fancybox) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-fancybox.svg)](https://travis-ci.org/npmtest/node-npmtest-fancybox)
 
-#### fancyBox is a tool that offers a nice and elegant way to add zooming functionality for images, html content and multi-media on your webpages. It is built on the top of the popular JavaScript framework jQuery and is both easy to implement and a snap to customize.
+#### fancyBox is a tool that offers a nice and elegant way to add zooming functionality for images, html content and multi-media on your webpages. It is built on the top of the popular JavaScript framework jQuery and is both easy to implement and a snap to cus
 
 [![NPM](https://nodei.co/npm/fancybox.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/fancybox)
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-fancybox/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-fancybox/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-fancybox/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-fancybox/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-fancybox/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-fancybox/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-fancybox/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-fancybox/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-fancybox/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-fancybox/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-fancybox/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-fancybox/build/coverage.html/index.html)
 
@@ -35,36 +35,53 @@
 ```json
 
 {
-    "name": "fancybox",
-    "original-version": "2.1.5",
-    "version": "3.0.0",
-    "description": "fancyBox is a tool that offers a nice and elegant way to add zooming functionality for images, html content and multi-media on your webpages. It is built on the top of the popular JavaScript framework jQuery and is both easy to implement and a snap to customize.",
-    "main": "dist/js/jquery.fancybox.cjs.js",
-    "scripts": {
-        "test": "./node_modules/phantomjs/lib/phantom/bin/phantomjs ./test.js"
+    "author": {
+        "name": "fancyapps",
+        "url": "https://github.com/fancyapps"
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/olsonpm/fancybox.git"
+    "bugs": {
+        "url": "https://github.com/olsonpm/fancybox/issues"
     },
+    "dependencies": {},
+    "description": "fancyBox is a tool that offers a nice and elegant way to add zooming functionality for images, html content and multi-media on your webpages. It is built on the top of the popular JavaScript framework jQuery and is both easy to implement and a snap to cus",
+    "devDependencies": {
+        "chai": "^1.10.0",
+        "jquery": "^2.1.3",
+        "node-sass": "^2.0.0-beta",
+        "phantomjs": "^1.9.13"
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "8c21af8142c621bed7d551ba69c4c38eaecd2e04",
+        "tarball": "https://registry.npmjs.org/fancybox/-/fancybox-3.0.0.tgz"
+    },
+    "gitHead": "dc4c0fb95892a1b5bad61610f9263b93948e603f",
+    "homepage": "https://github.com/olsonpm/fancybox",
     "keywords": [
         "fancybox",
         "fancy",
         "box",
         "lightbox"
     ],
-    "author": "fancyapps (https://github.com/fancyapps)",
     "license": "CC BY-NC 3.0 (http://creativecommons.org/licenses/by-nc/3.0/)",
-    "bugs": {
-        "url": "https://github.com/olsonpm/fancybox/issues"
+    "main": "dist/js/jquery.fancybox.cjs.js",
+    "maintainers": [
+        {
+            "name": "olsonpm"
+        }
+    ],
+    "name": "fancybox",
+    "optionalDependencies": {},
+    "original-version": "2.1.5",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/olsonpm/fancybox.git"
     },
-    "homepage": "https://github.com/olsonpm/fancybox",
-    "devDependencies": {
-        "chai": "^1.10.0",
-        "jquery": "^2.1.3",
-        "node-sass": "^2.0.0-beta",
-        "phantomjs": "^1.9.13"
-    }
+    "scripts": {
+        "test": "./node_modules/phantomjs/lib/phantom/bin/phantomjs ./test.js"
+    },
+    "version": "3.0.0",
+    "bin": {}
 }
 ```
 
